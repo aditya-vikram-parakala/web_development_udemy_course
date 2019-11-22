@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <label for="FirstName">FirstName:</label>
+            <input type="text" name="FirstName" id="" placeholder="FirstName" required>
+            <label for="LastName">LastName:</label>
+            <input type="text" name="LastName" id="" placeholder="LastName" required>
+            <br>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Female">
+            <label for="Others">Others</label>
+            <input type="radio" name="gender" value="Others">
+            <br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="" placeholder="Email" required>
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="" minlength="5" maxlength="10" required>
+            <br>
+            <label for="dob">Birthday:</label>
+            <select name="dob" id="">
+                <option value="">Month</option>
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+            </select>
+            <select name="dob" id="">
+                <option value="">Day</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>
+            <select name="dob" id="">
+                <option value="">Year</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+            </select>
+            <br>
+            <label for="terms">I agree to terms and conditions</label>
+            <input type="checkbox" name="terms" id="">
+            <br>
+            <button>Submit</button>
+
+        </form>
+    </body>
+</html>
